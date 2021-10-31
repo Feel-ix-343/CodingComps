@@ -200,7 +200,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/home/felix/.jdks/openjdk-16.0.2",
                 "options": [
                     "-Duser.dir=/home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/project"
                 ]
