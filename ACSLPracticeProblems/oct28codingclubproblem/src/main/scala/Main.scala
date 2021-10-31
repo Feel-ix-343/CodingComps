@@ -12,15 +12,15 @@ object Main extends App {
   def calcSum(i: String): Int = i.split("").map(Integer.parseInt).sum
   def calcProduct(i: String): Int = i.split("").map(Integer.parseInt).product // or ...reduce(_ * _) or ...reduce(x => x * x) or reduce((x: Int) => x * x)
   def reverseNum(i: String): String = i.reverse
-  def isPalendrome(i: String): Boolean = i == i.reverse // or ... == reverseNum(i)
+  def isPalindrome(i: String): Boolean = i == i.reverse // or ... == reverseNum(i)
   def frequencyOfDigits(i: String): String = (for (x <- i.split("").toSet.toArray) yield x + ": " + i.count(_ == x.charAt(0)) + " times").mkString(", ")
 
   println(countDigits(num))
   println(sumFirstLast(num))
   println(swapFirstLast(num))
-  println(calcSum(num)) 
+  println(calcSum(num))
   println(calcProduct(num))
   println(reverseNum(num))
-  println(isPalendrome(num))
+  println(isPalindrome(num))
   println(frequencyOfDigits(num))
 }
