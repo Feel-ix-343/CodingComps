@@ -6,3 +6,54 @@
 [0m2021.11.06 09:39:28 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
 [0m2021.11.06 09:39:37 INFO  time: code lens generation in 10s[0m
 [0m2021.11.06 09:39:37 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/src/main/scala/Main.scala[0m
+Nov 06, 2021 9:41:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.11.06 09:41:58 INFO  shutting down Metals[0m
+[0m2021.11.06 09:42:06 INFO  Started: Metals version 0.10.9 in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.06 09:42:07 INFO  time: initialize in 1.05s[0m
+[0m2021.11.06 09:42:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.06 09:42:08 WARN  no build tool detected in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.06 09:42:08 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/src/main/scala/Main.scala[0m
+Nov 06, 2021 9:42:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+[0m2021.11.06 09:42:10 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.06 09:42:13 INFO  time: code lens generation in 4.08s[0m
+Nov 06, 2021 9:42:15 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 06, 2021 9:42:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.11.06 09:42:25 INFO  shutting down Metals[0m
+[0m2021.11.06 09:42:32 INFO  Started: Metals version 0.10.9 in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.06 09:42:33 INFO  time: initialize in 1.07s[0m
+[0m2021.11.06 09:42:33 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.06 09:42:33 WARN  no build tool detected in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.06 09:42:33 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/src/main/scala/Main.scala[0m
+[0m2021.11.06 09:42:35 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Nov 06, 2021 9:42:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 06, 2021 9:42:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.11.06 09:42:53 INFO  shutting down Metals[0m
+[0m2021.11.06 09:44:53 INFO  Started: Metals version 0.10.9 in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.06 09:44:54 INFO  time: initialize in 1.2s[0m
+[0m2021.11.06 09:44:54 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.06 09:44:54 WARN  no build tool detected in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.06 09:44:54 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/src/main/scala/Main.scala[0m
+[0m2021.11.06 09:44:56 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.06 09:44:58 INFO  time: code lens generation in 3.55s[0m
+Nov 06, 2021 9:45:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.11.06 09:45:07 INFO  shutting down Metals[0m
+[0m2021.11.06 09:45:14 INFO  Started: Metals version 0.10.9 in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.06 09:45:15 INFO  time: initialize in 1.07s[0m
+[0m2021.11.06 09:45:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.06 09:45:15 WARN  no build tool detected in workspace '/home/felix/coding/CodingComps/ACSLPracticeProblems'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.06 09:45:15 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/oct28codingclubproblem/src/main/scala/Main.scala[0m
+[0m2021.11.06 09:45:18 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.06 09:45:20 INFO  time: code lens generation in 3.97s[0m
+[0m2021.11.06 09:46:29 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/src/main/scala/Main.scala[0m
+[0m2021.11.06 09:46:58 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/src/main/scala/Main.scala[0m
+Nov 06, 2021 9:47:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.11.06 09:48:59 WARN  no build target for: /home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/src/main/scala/Main.scala[0m
+[0m2021.11.06 09:49:08 INFO  shutting down Metals[0m
