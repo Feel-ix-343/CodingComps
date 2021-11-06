@@ -7,3 +7,7 @@ for _ in range(nums):
     else:
         input_ = int(input("Enter another value: "))
 print(sum(lst) // len(lst))
+
+
+def test():
+    print("Test")

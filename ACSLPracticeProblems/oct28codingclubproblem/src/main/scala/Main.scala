@@ -4,8 +4,8 @@ import java.util.Scanner
 // }
 object Main extends App {
   // val num = new Scanner(System.in).nextLine()
-  val num = io.StdIn.readLine("Input a number: ")
-  // val num = "123321"
+  // val num = io.StdIn.readLine("Input a number: ")
+  val num = "123321"
   def countDigits(i: String): Int = num.length // I don't actually need to specify return type
   def sumFirstLast(i: String): Int = Integer.parseInt(i.substring(0, 1)) + Integer.parseInt(i.substring(i.length - 1))
   def swapFirstLast(i: String): String = i.substring(i.length - 1) + i.substring(1, i.length - 1) + i.substring(0, 1)

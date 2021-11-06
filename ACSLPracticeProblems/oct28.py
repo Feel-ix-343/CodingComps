@@ -8,6 +8,7 @@ product_of_digits = lambda x: print(reduce(lambda a, b: int(a) * int(b), x))
 reverse_order = lambda x: print(int(''.join([x[-i] for i in range(1, len(x) + 1)])))
 is_palendrome = lambda x: print(int(''.join([x[-i] for i in range(1, len(x) + 1)])) == int(x))
 frequency_of_digits = lambda x: print(' times, '.join(sorted([': '.join([i, str(x.count(i))]) for i in list(set(x))])) + " times")
+
 for i in dict(locals()): locals()[i](num) if type(locals()[i]).__name__ == "function" else None
 
 
