@@ -20,8 +20,9 @@ def f(number, target_):
     return closest
 
 
-n_of_lines = int(input("Enter # of lines: "))
-lines = [input("Enter Number, and target number separated by ', '").split(", ") for _ in range(n_of_lines)]
+# n_of_lines = int(input("Enter # of lines: "))
+n_of_lines = 5
+lines = [input("Enter Number, and target number separated by ', ': ").split(", ") for _ in range(n_of_lines)]
 
 for line in lines:
     print(f(line[0], line[1]))
