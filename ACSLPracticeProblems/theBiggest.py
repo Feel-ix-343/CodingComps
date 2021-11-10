@@ -27,25 +27,3 @@ lines = [["1234", '127']]
 
 for line in lines:
     print(function(line[0], line[1]))
-
-array = list("1234")
-n = len(array)
-
-for partition_index in range(2 ** (n-1)):
-
-    # current partition, e.g., [['a', 'b'], ['c', 'd', 'e']]
-    partition = []
-
-    # used to accumulate the subsets, e.g., ['a', 'b']
-    subset = []
-
-    for position in range(n):
-
-        subset.append(array[position])
-
-        # check whether to "break off" a new subset
-        if 1 << position & partition_index or position == n-1:
-            partition.append(subset)
-            subset = []
-
-    print(partition)
