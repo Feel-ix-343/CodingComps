@@ -23,7 +23,7 @@ def function(number, target_):
 # n_of_lines = int(input("Enter # of lines: "))
 n_of_lines = 5
 # lines = [input("Enter Number, and target number separated by ', ': ").split(", ") for _ in range(n_of_lines)]
-lines = [["1234", '127']]
+lines = [["1234", '127'], ['11278432', '123']]
 
 for line in lines:
     print(function(line[0], line[1]))
