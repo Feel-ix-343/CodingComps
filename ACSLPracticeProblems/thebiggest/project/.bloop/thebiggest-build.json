@@ -2,16 +2,16 @@
     "version": "1.4.0",
     "project": {
         "name": "thebiggest-build",
-        "directory": "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project",
-        "workspaceDir": "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project",
+        "directory": "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project",
+        "workspaceDir": "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project",
         "sources": [
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/scala",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/scala-2.12",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/scala-2",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/java",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/scala-sbt-1.0",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/target/scala-2.12/sbt-1.0/src_managed/main",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/Dependencies.scala"
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/scala",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/scala-2.12",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/scala-2",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/java",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/scala-sbt-1.0",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/target/scala-2.12/sbt-1.0/src_managed/main",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/Dependencies.scala"
         ],
         "dependencies": [
             
@@ -106,11 +106,11 @@
             "/home/felix/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
             "/home/felix/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"
         ],
-        "out": "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/.bloop/thebiggest-build",
-        "classesDir": "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/.bloop/thebiggest-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/.bloop/thebiggest-build",
+        "classesDir": "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/.bloop/thebiggest-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/src/main/resources",
-            "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/src/main/resources",
+            "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -123,11 +123,11 @@
             ],
             "jars": [
                 "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
-                "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar",
                 "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
-                "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-xml_2.12-1.0.6.jar"
+                "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-xml_2.12-1.0.6.jar",
+                "/home/felix/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar"
             ],
-            "analysis": "/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "analysis": "/home/felix/CSC/ACSLPracticeProblems/thebiggest/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -200,9 +200,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/home/felix/.jdks/openjdk-17.0.1",
                 "options": [
-                    "-Duser.dir=/home/felix/coding/CodingComps/ACSLPracticeProblems/thebiggest/project"
+                    "-Duser.dir=/home/felix/CSC/ACSLPracticeProblems/thebiggest/project"
                 ]
             },
             "mainClass": [

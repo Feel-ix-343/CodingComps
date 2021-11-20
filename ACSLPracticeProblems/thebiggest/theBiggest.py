@@ -27,4 +27,3 @@ lines = [["1234", '127'], ['11278432', '123']]
 
 for line in lines:
     print(function(line[0], line[1]))
-
