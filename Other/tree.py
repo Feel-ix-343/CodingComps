@@ -15,11 +15,11 @@ n1 = node(5, None, None)
 n2 = node(6, None, None)
 n3 = node(3, n1, n2)
 n4 = node(4, None, None)
-root = node(2, n3, n4)
+root = node(4, n3, n4)
 def find_sum(root):
     if root == None:
         return 0
     else:
         return root.data + find_sum(root.left) + find_sum(root.right)
     
-find_sum(root)
+print(find_sum(root))
