@@ -1,8 +1,8 @@
 from datetime import time
 
 def findTime(*spaces):
-    hours, minutes = 0, 0
-    spaces = [([1, 1, 2, 3, 5][index], color) for index, color in enumerate(spaces)]
+    hours, minutes, fibVals = 0, 0, [1, 1, 2, 3, 5]
+    spaces = [(fibVals[index], color) for index, color in enumerate(spaces)]
     for fibVal, color in spaces:
         if color == "R":
             hours += fibVal
