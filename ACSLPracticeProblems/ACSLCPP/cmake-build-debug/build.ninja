@@ -52,17 +52,6 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/felix/coding/CCS/ACSLPracticeProblems/ACSLCPP/cmake-build-debug && /home/felix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target ACSLCPP
 
@@ -95,6 +84,79 @@ build ACSLCPP: CXX_EXECUTABLE_LINKER__ACSLCPP_Debug CMakeFiles/ACSLCPP.dir/Sound
   TARGET_PDB = ACSLCPP.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Tests
+
+
+#############################################
+# Order-only phony target for Tests
+
+build cmake_object_order_depends_target_Tests: phony || CMakeFiles/Tests.dir
+
+build CMakeFiles/Tests.dir/Tests.cpp.o: CXX_COMPILER__Tests_Debug /home/felix/coding/CCS/ACSLPracticeProblems/ACSLCPP/Tests.cpp || cmake_object_order_depends_target_Tests
+  DEP_FILE = CMakeFiles/Tests.dir/Tests.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Tests.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tests.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Tests
+
+
+#############################################
+# Link the executable Tests
+
+build Tests: CXX_EXECUTABLE_LINKER__Tests_Debug CMakeFiles/Tests.dir/Tests.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Tests.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Tests
+  TARGET_PDB = Tests.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACSLble
+
+
+#############################################
+# Order-only phony target for ACSLble
+
+build cmake_object_order_depends_target_ACSLble: phony || CMakeFiles/ACSLble.dir
+
+build CMakeFiles/ACSLble.dir/ACSLble.cpp.o: CXX_COMPILER__ACSLble_Debug /home/felix/coding/CCS/ACSLPracticeProblems/ACSLCPP/ACSLble.cpp || cmake_object_order_depends_target_ACSLble
+  DEP_FILE = CMakeFiles/ACSLble.dir/ACSLble.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ACSLble.dir
+  OBJECT_FILE_DIR = CMakeFiles/ACSLble.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACSLble
+
+
+#############################################
+# Link the executable ACSLble
+
+build ACSLble: CXX_EXECUTABLE_LINKER__ACSLble_Debug CMakeFiles/ACSLble.dir/ACSLble.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ACSLble.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ACSLble
+  TARGET_PDB = ACSLble.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/felix/coding/CCS/ACSLPracticeProblems/ACSLCPP/cmake-build-debug && /home/felix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -105,7 +167,7 @@ build ACSLCPP: CXX_EXECUTABLE_LINKER__ACSLCPP_Debug CMakeFiles/ACSLCPP.dir/Sound
 #############################################
 # Folder: /home/felix/coding/CCS/ACSLPracticeProblems/ACSLCPP/cmake-build-debug
 
-build all: phony ACSLCPP
+build all: phony ACSLCPP Tests ACSLble
 
 # =============================================================================
 # Built-in targets

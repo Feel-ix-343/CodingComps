@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-using namespace std;
+// using namespace std;
 
 #define FORN(n) for(int i = 0; i < (n); i++)
 
@@ -14,7 +14,7 @@ using namespace std;
  */
 
 char getCodedChar (char c) {
-    map<string, char> code = {
+    std::map<std::string, char> code = {
         {"BFPV", '1'},
         {"CGJKQSXZ", '2'},
         {"DT", '3'},
@@ -23,13 +23,13 @@ char getCodedChar (char c) {
         {"R", '6'}
     };
     char returnVal = '0'; // Placeholder for a value to ignore
-    for_each(code.begin(), code.end(), [c, code, &returnVal](pair<string, char> i) -> void {
+    std::for_each(code.begin(), code.end(), [c, code, &returnVal](std::pair<std::string, char> i) -> void {
         if (i.first.find(c) != -1) returnVal = i.second;
     });
     return returnVal; 
 }
 
-void solve (string test, string& out) {
+void solve (std::string test, std::string& out) {
     char previousCodedChar = getCodedChar(test[0]);
     /* For loop with 2 vars; Used to iterate through the out string while adjusting for problemset conditions in the
      test string */
@@ -52,27 +52,27 @@ void solve (string test, string& out) {
 
 int main () {
     FORN(5) {
-        string test;
-        getline(cin, test);
+        std::string test;
+        getline(std::cin, test);
 
-        string out = string(1, test[0]) + "000";
-        out = string(1, test[0]) + "000";
+        std::string out = std::string(1, test[0]) + "000";
+        out = std::string(1, test[0]) + "000";
 
-        string normTest = test; // For prefixes
-        remove(normTest.begin(), normTest.end(), ' ');
+        std::string normTest = test; // For prefixes
+        std::remove(normTest.begin(), normTest.end(), ' ');
 
         solve(normTest, out);
-        cout << out;
+        std::cout << out;
 
         int prefixSepIndex = test.find(' '); // For prefixes
         if (prefixSepIndex != -1) {
-            string testSpaced = test.substr(prefixSepIndex + 1, string::npos);
-            out = string(1, testSpaced[0]) + "000";
+            std::string testSpaced = test.substr(prefixSepIndex + 1, std::string::npos);
+            out = std::string(1, testSpaced[0]) + "000";
             solve(testSpaced, out);
-            cout << " and " << out;
+            std::cout << " and " << out;
         }
 
-        cout << endl;
+        std::cout << std::endl;
     }
 }
 
