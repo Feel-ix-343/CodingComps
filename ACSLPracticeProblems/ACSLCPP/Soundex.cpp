@@ -33,7 +33,7 @@ void solve (std::string test, std::string& out) {
     char previousCodedChar = getCodedChar(test[0]);
     /* For loop with 2 vars; Used to iterate through the out string while adjusting for problemset conditions in the
      test string */
-    for (int i = 1, testIndex = 1; i < 4 && testIndex < test.length(); i++, testIndex++) {
+    for (int outIndex = 1, testIndex = 1; outIndex < 4 && testIndex < test.length(); outIndex++, testIndex++) {
         char coded = getCodedChar(test[testIndex]); // Gets the coded char
         char sepCheckChar = getCodedChar(test[testIndex - 2]); // Checking two chars back
         if (
@@ -44,8 +44,8 @@ void solve (std::string test, std::string& out) {
                     testIndex >= 2 && (sepCheckChar == '0' || sepCheckChar != coded) && previousCodedChar == '0' // Consonant Separators condition 1
                 )
             )
-            out[i] = coded;
-        else i--;
+            out[outIndex] = coded;
+        else outIndex--;
         previousCodedChar = coded;
     }
 }
