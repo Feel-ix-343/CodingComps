@@ -3,12 +3,13 @@
 using namespace std;
 
 int isVowel (char c) {
+    string vowels = "AEIOU";
     if (c == ' ') return 3;
     else if (c == 'Y') return 2;
-    else return (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+    else return vowels.find(c) != -1;
 }
 
-int getSpecialOccurances(string str) {
+int getSpecials(string str) {
     int count = 0;
     vector<string> pairs = {"IO", "AO", "EO", "IA", "II", "UA", "UE"};
     for (string pair : pairs) {
@@ -21,23 +22,22 @@ int getSpecialOccurances(string str) {
 
 int solve(string str) {
     int blocks = 0, isType = -1, wasType = isVowel(str[0]);
-    str += ' '; // To offset the forloop, idk
+    str += ' '; // To offset the forloop, it looks back for change
     for (int i = 0; i < str.length(); i++) {
         isType = isVowel(str[i]);
         if (isType == 2) { // If its 'y'
-            if (
-                    str[i - 1] == ' ' ||
-                    (i == str.length() || str[i + 1] == ' ') && isVowel(str[i - 1]) != 0 ||
-                    (isVowel(str[i - 1]) != 0 && isVowel(str[i + 1]) != 0)
-                ) isType = 0;
-            else isType = 1;
+            if (str[i - 1] == ' ' ||  // Beginning of word
+                (i == str.length() || str[i + 1] == ' ') && isVowel(str[i - 1]) != 0 || // End of word and letter before is vowel
+                (isVowel(str[i - 1]) != 0 && isVowel(str[i + 1]) != 0)) // Middle of word and not preceded and followed by consonant
+                isType = 0; // Then y is a conant
+            else isType = 1; // If false, y is vowel
         }
         if (str[i] == ' ') {
             if (str[i - 1] != 'E' || (str[i - 1] == 'E' && isVowel(str[i - 2]) != 0)) blocks++;
         } else if (isType != wasType && wasType != 3) blocks++;
         wasType = isType;
     }
-    return blocks + getSpecialOccurances(str);
+    return blocks + getSpecials(str);
 }
 
 int main() {
