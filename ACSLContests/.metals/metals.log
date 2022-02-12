@@ -1,0 +1,4 @@
+2022.02.11 19:36:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/felix/coding/CCS/ACSLContests/.metals/lsp.trace.json or /home/felix/.cache/metals/lsp.trace.json[0m
+2022.02.11 19:36:35 INFO  logging to file /home/felix/coding/CCS/.metals/metals.log[0m
+2022.02.11 19:53:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/felix/coding/CCS/ACSLContests/.metals/lsp.trace.json or /home/felix/.cache/metals/lsp.trace.json[0m
+2022.02.11 19:53:56 INFO  logging to file /home/felix/coding/CCS/.metals/metals.log[0m
