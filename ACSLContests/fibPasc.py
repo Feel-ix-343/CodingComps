@@ -5,3 +5,4 @@ for i in range(2, 5+1):
 
 # The diagonal
 print([triangle[i][len(triangle)-1 - i] for i in range(len(triangle)-1, (len(triangle)-len(triangle)%2)//2-1, -1)])
+# [1, 4, 3]
