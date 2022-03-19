@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2022Jan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2022Jan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2022Jan-Debug-286bb7c6a1c7b014ad10.json",
+					"name" : "2022Jan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Drought::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Drought-Debug-c3ea5f676ccb037cce75.json",
+					"name" : "Drought",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NonTransitiveDice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NonTransitiveDice-Debug-2e71eda3aa5d05954e99.json",
+					"name" : "NonTransitiveDice",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug",
+		"source" : "/home/felix/coding/CCS/USACO/2022Jan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,5 @@
+/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug/CMakeFiles/2022Jan.dir
+/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug/CMakeFiles/Drought.dir
+/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug/CMakeFiles/NonTransitiveDice.dir
+/home/felix/coding/CCS/USACO/2022Jan/cmake-build-debug/CMakeFiles/edit_cache.dir

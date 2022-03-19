@@ -1,0 +1,4 @@
+/home/felix/coding/CCS/USACO/DecUSACO2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/felix/coding/CCS/USACO/DecUSACO2021/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/felix/coding/CCS/USACO/DecUSACO2021/cmake-build-debug/CMakeFiles/LonelyPhotoTry2.dir
+/home/felix/coding/CCS/USACO/DecUSACO2021/cmake-build-debug/CMakeFiles/cows.dir
