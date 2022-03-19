@@ -5,14 +5,11 @@ def fibCypher(num1, num2, key, msg):
     key = ord(key)
     out = []
     for index, char in enumerate(msg):
-        keyMult = (key - 97 + fibSequence[index]) % 26 + 97
-        print(key)
-        print(fibSequence[index])
-        print(keyMult)
-        print()
+        keyMult = (key - 97 + fibSequence[index % 20]) % 26 + 97
         out.append(ord(char) + 3 * keyMult)
     return " ".join(map(str, out))
 
 print(fibCypher(3, 7, 'h', "ACSL c2"))
+
 
 
