@@ -1,4 +1,0 @@
-/home/felix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/felix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/ninja/linux/ninja -G Ninja /home/felix/coding/CCS/USACO/USCAOGuide/Bronze
--- Configuring done
--- Generating done
--- Build files have been written to: /home/felix/coding/CCS/USACO/USCAOGuide/Bronze/cmake-build-debug

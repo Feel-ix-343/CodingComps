@@ -1,4 +1,0 @@
-/home/felix/coding/CCS/USACO/USCAOGuide/Bronze/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/felix/coding/CCS/USACO/USCAOGuide/Bronze/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/felix/coding/CCS/USACO/USCAOGuide/Bronze/cmake-build-debug/CMakeFiles/main.dir
-/home/felix/coding/CCS/USACO/USCAOGuide/Bronze/cmake-build-debug/CMakeFiles/Bronze.dir
